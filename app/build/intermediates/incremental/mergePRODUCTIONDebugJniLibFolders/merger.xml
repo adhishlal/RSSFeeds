@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/adhishlal/AndroidStudioProjects/RSSFeeds/app/src/main/jniLibs"/></dataSet><dataSet config="PRODUCTION"><source path="/Users/adhishlal/AndroidStudioProjects/RSSFeeds/app/src/PRODUCTION/jniLibs"/></dataSet><dataSet config="debug"><source path="/Users/adhishlal/AndroidStudioProjects/RSSFeeds/app/src/debug/jniLibs"/></dataSet><dataSet config="PRODUCTIONDebug"><source path="/Users/adhishlal/AndroidStudioProjects/RSSFeeds/app/src/PRODUCTIONDebug/jniLibs"/></dataSet></merger>

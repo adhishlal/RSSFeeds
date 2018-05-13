@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:minHeight="100dp"
+        android:id="@+id/llItem"
+        android:layout_height="wrap_content">
+
+        <View
+            android:layout_width="8dp"
+            android:id="@+id/coloredView"
+            android:layout_height="match_parent"/>
+
+        <com.appiness.rssfeeds.utils.RobotoRegularTextView
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:textSize="14sp"
+            android:id="@+id/tvHeading"
+            android:layout_marginLeft="25dp"
+            android:textColor="@color/black"
+            android:layout_gravity="center_vertical"
+            android:layout_height="wrap_content" />
+
+        <View
+            android:layout_height="match_parent"
+            android:background="@color/grey_400"
+            android:layout_margin="15dp"
+            android:layout_width="0.5dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_height="wrap_content">
+
+            <com.appiness.rssfeeds.utils.RobotoRegularTextView
+                android:layout_width="wrap_content"
+                android:textColor="@color/grey_600"
+                android:layout_gravity="center_horizontal"
+                android:textSize="10sp"
+                android:id="@+id/tvMonthYear"
+                android:layout_height="wrap_content" />
+
+            <com.appiness.rssfeeds.utils.RobotoMediumTextView
+                android:layout_width="wrap_content"
+                android:textColor="@color/grey_600"
+                android:textSize="42sp"
+                android:id="@+id/tvDate"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content" />
+
+
+
+
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_margin="15dp"
+            android:src="@drawable/ic_next"
+            android:layout_height="match_parent" />
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:background="@color/grey_400"
+        android:layout_height="0.1dp"/>
+
+</LinearLayout>
